@@ -1,0 +1,37 @@
+{
+  "name": "axios-rest-and-events",
+  "version": "0.1.0",
+  "description": "Axios client for using with REST API and have events system",
+  "main": "srs/index.js",
+  "unpkg": "dist/axios-rest-and-events.umd.min.js",
+  "module": "src/index.js",
+  "scripts": {},
+  "repository": "github:kolobok12309/axios-rest-and-events",
+  "keywords": [
+    "axios",
+    "events",
+    "rest"
+  ],
+  "author": "kolobok12309",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kolobok12309/axios-rest-and-events/issues"
+  },
+  "homepage": "https://github.com/Kolobok12309/axios-rest-and-events#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/polyfill": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "lint-staged": "^8.1.5",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
