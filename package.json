@@ -1,6 +1,6 @@
 {
   "name": "axios-rest-and-events",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Axios client for using with REST API and have events system",
   "main": "srs/index.js",
   "unpkg": "dist/axios-rest-and-events.umd.min.js",
