@@ -3,9 +3,12 @@
   "version": "0.1.1",
   "description": "Axios client for using with REST API and have events system",
   "main": "srs/index.js",
-  "unpkg": "dist/axios-rest-and-events.umd.min.js",
+  "unpkg": "dist/bundle.js",
   "module": "src/index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch"
+  },
   "repository": "github:kolobok12309/axios-rest-and-events",
   "keywords": [
     "axios",
